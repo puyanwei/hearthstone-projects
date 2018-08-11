@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>{{ testText }}</h1>
+        <h1>{{ text }}</h1>
     </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
     data() {
         return {
-            testText: "This is a test"
+            text: "We're gonna open some packs!"
         };
     }
 };

@@ -1,18 +1,22 @@
-# layout-training
+# hearthstone-projects
 
-Practicing creating webpage layouts by copying designs using Nuxt.js
+Some replication of hearthstone functionality I want to try out using Vue Cli version 3.
 
-The priority is to improve creating webpage layouts using CSS grid. I want to make sure pages are responsive to screen sizes and try and achieve what I want with the minimal amount of CSS needed.
+- opening packs simulator
+- arena drafting
+- evolve simulator
+- eventually the game itself with working board and trading minions
 
-Good coding practices as always, and readability is a priority!
-
-I'll list out the new pages I have created, they will be routed to their name so it should be localhost:3000/[name]
-
-## Build Setup
+## Installation
 
 ```
 npm install
-npm run dev
+npm run serve
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Tech
+
+- Vue.js Cli version 3
+- SCSS pre-processor built in
+- Vue routing
+- ES6 Javascript, HTML, CSS and all that jazz
